@@ -23,6 +23,7 @@ bool isPalindrome(string s)
             o += s[i];
         }
     }
+
     for (int i = o.length() - 1; i >= 0; i--)
     {
         t += o[i];
