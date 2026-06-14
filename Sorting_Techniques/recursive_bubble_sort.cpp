@@ -27,7 +27,7 @@ int main()
     cout << "Enter the length of array: ";
     cin >> n;
     vector<int> nums(n);
-    cout << "Enter the elements: ";
+    cout << "Enter the array elements: ";
     for (int i = 0; i < n; i++)
         cin >> nums[i];
     vector<int> ans = bubbleSort(nums);
