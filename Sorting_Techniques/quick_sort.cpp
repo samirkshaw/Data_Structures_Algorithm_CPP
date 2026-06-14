@@ -32,7 +32,7 @@ int main()
     cout << "Enter the length of array: ";
     cin >> n;
     vector<int> arr(n);
-    cout << "Enter the elements: ";
+    cout << "Enter the array elements: ";
     for (int i = 0; i < n; i++)
         cin >> arr[i];
     quickSort(arr, 0, n - 1);
