@@ -36,14 +36,14 @@ int main()
     cin >> n;
 
     vector<int> arr(n);
-    cout << "Enter " << n << " elements: ";
+    cout << "\n" << "Enter " << n << " elements: ";
     for (int i = 0; i < n; i++)
     {
         cin >> arr[i];
     }
 
     int result = findLargest(arr);
-    cout << "The largest element in the array is: " << result << endl;
+    cout << "\n" << "The largest element in the array is: " << result << endl;
 
     return 0;
 }
