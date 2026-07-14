@@ -43,7 +43,7 @@ int main()
     }
 
     int result = findLargest(arr);
-    cout << "\n" << "The largest element in the array is: " << result << endl;
+    cout << "\n" << "The largest element in the array is: " << result << "\n";
 
     return 0;
 }
