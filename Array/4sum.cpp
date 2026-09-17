@@ -11,7 +11,7 @@ int main() {
     cin.tie(NULL);
 
     int n;
-    cout << "Enter the number of elements: ";
+    cout << "Enter the number of elements in the array: ";
     cin >> n;
 
     vector<int> nums(n);
